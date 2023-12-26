@@ -1,0 +1,255 @@
+:root {
+  --main-color: #EDAC14;
+  --sec-color: #EEEEEE;
+  --red-color: #F70000;
+  --blue-color: #415E9B;
+  --bg-color: #131722;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Oswald&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--bg-color);
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  position: relative;
+}
+
+.bg-navbar {
+  background-color: #0e1018;
+}
+
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.main-color {
+  color: var(--main-color);
+}
+
+.bgMainColor {
+  background-color: var(--main-color);
+}
+
+.sec-color {
+  background-color: var(--sec-color);
+}
+
+.red {
+  color: var(--red-color);
+}
+
+.blue {
+  color: var(--blue-color);
+}
+
+.testWidth {
+  height: 2000px;
+}
+
+.yelHover:hover {
+  color: var(--main-color) !important;
+}
+
+.customH {
+  height: 250px;
+}
+
+.customHCard{
+  height: 250px;
+}
+
+.ourPromise {
+  background-image: url(../src/images/backGround.jpg);
+}
+
+.expand{
+  border-bottom: solid 2px var(--main-color) ;
+}
+
+.linkDecoration{
+  text-decoration: none;
+}
+
+.customShadow{
+  box-shadow: 10px 10px 20px var(--main-color);
+}
+
+@media screen and (max-width: 480px) {
+
+/* ==== NavBar ==== */
+
+.navimg{
+  width: 70% ;
+  margin: auto;
+}
+.navimginside{
+  margin-left: 18%;
+  margin-bottom: 15px;
+}
+.nav-link{
+  font-size: small !important;
+  padding: 0 8px !important;
+}
+
+
+/* ==== home ==== */
+
+.customH {
+  height: 100px;
+}
+.Statics{
+  margin: 10px 0 !important;
+}
+.staticYellow{
+  padding: 10px 5px !important;
+  background-color: var(--bg-color);
+}
+.StaticsItem{
+  border: solid 2px var(--sec-color);
+  border-radius: 10px;
+  margin: 5px 0;
+  padding: 10px 0;
+}
+.OurPromise{
+  padding: 0 !important;
+}
+.OurPromiseText{
+  padding: 5px 15px !important;
+}
+.ContactHome{
+  display: none ;
+}
+
+/* ===== footer ===== */
+.footerDiv{
+  padding:  10px 0 !important;
+}
+.footerLogo{
+  margin-left: 10% ;
+}
+
+/* ===== about ===== */
+.aboutDiv{
+  padding: 25px 5px !important;
+}
+.aboutBottom{
+  text-align: center;
+  padding: 10px 0 !important;  
+}
+.aboutLogo{
+  display: none;
+}
+
+/* ====== contact ======= */
+.contactDiv{
+  padding: 50px 5px !important;
+  width: 100% !important;
+}
+.customShadow{
+  box-shadow: 5px 5px 15px var(--main-color);
+
+}
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+  
+/* ==== NavBar ==== */
+
+.navimg{
+  width: 70% ;
+  margin: auto;
+}
+.navimginside{
+  margin-left: 18%;
+  margin-bottom: 15px;
+}
+.nav-link{
+  padding: 0 12px !important;
+}
+
+
+/* ==== home ==== */
+
+.customH {
+  margin-top: 50px;
+  height: 120px;
+}
+.Statics{
+  margin: 10px 0 !important;
+}
+.staticYellow{
+  padding: 10px 5px !important;
+  background-color: var(--bg-color);
+}
+.StaticsItem{
+  border: solid 2px var(--sec-color);
+  border-radius: 10px;
+  margin: 5px 0;
+  padding: 10px 0;
+}
+.OurPromise{
+  padding: 0 !important;
+}
+.OurPromiseText{
+  padding: 5px 15px !important;
+}
+.ContactHome{
+  display: none ;
+}
+
+/* ====== services ======= */
+
+.servicesSection{
+  margin-top: 70px;
+}
+
+/* ====== services ======= */
+
+.solutionSection{
+  margin-top: 70px;
+}
+
+/* ===== footer ===== */
+.footerDiv{
+  padding:  10px 0 !important;
+}
+.footerLogo{
+  margin-left: 28% ;
+}
+
+/* ===== about ===== */
+.aboutDiv{
+  margin-top: 100px;
+  padding: 25px 5px !important;
+}
+.aboutBottom{
+  text-align: center;
+  padding: 10px 0 !important;  
+}
+.aboutLogo{
+  display: none;
+}
+
+/* ====== contact ======= */
+.contactDiv{
+  margin-top: 50px;
+  padding: 50px 5px !important;
+  width: 100% !important;
+}
+.customShadow{
+  box-shadow: 5px 5px 15px var(--main-color);
+
+}
+
+}
+
+

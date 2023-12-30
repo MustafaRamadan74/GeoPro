@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GeoPro/static/css/main.adbe2d49.css",
-    "main.js": "/GeoPro/static/js/main.f6bfc702.js",
+    "main.js": "/GeoPro/static/js/main.bf4f6bac.js",
     "static/js/787.a9c83584.chunk.js": "/GeoPro/static/js/787.a9c83584.chunk.js",
     "static/media/NavigationAndMapping.jpg": "/GeoPro/static/media/NavigationAndMapping.f5ac0b4f8358946e3665.jpg",
     "static/media/LandManagement.jpg": "/GeoPro/static/media/LandManagement.65ff6a1716e5a594af2f.jpg",
@@ -44,11 +44,11 @@
     "static/media/slick.woff": "/GeoPro/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/GeoPro/index.html",
     "main.adbe2d49.css.map": "/GeoPro/static/css/main.adbe2d49.css.map",
-    "main.f6bfc702.js.map": "/GeoPro/static/js/main.f6bfc702.js.map",
+    "main.bf4f6bac.js.map": "/GeoPro/static/js/main.bf4f6bac.js.map",
     "787.a9c83584.chunk.js.map": "/GeoPro/static/js/787.a9c83584.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.adbe2d49.css",
-    "static/js/main.f6bfc702.js"
+    "static/js/main.bf4f6bac.js"
   ]
 }

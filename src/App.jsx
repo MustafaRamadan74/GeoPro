@@ -20,9 +20,15 @@ import LandManagement from './Components/LandManagement/LandManagement';
 import Communication from './Components/Communication/Communication';
 import NavigationAndMapping from './Components/NavigationAndMapping/NavigationAndMapping';
 import NotFound from './Components/NotFound/NotFound';
+import Toggle from './Components/Toggle/Toggle';
+import { ThemeContextVar } from './Context/DarkModeContext';
+import { useContext } from 'react';
 
 
 function App() {
+
+  const theme = useContext(ThemeContextVar);
+  const darkMode = theme.state.darkMode;
 
   let routers = createHashRouter([
     {
@@ -60,8 +66,15 @@ function App() {
 
   return <>
 
-    <RouterProvider router={routers}></RouterProvider>
+    <div style={{
+      backgroundColor: darkMode ? "#131722" : "#fff",
+      color: darkMode ? "#  " : "#000"
+    }}>
 
+      <Toggle />
+      <RouterProvider router={routers}></RouterProvider>
+
+    </div>
   </>
 }
 

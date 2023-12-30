@@ -1,8 +1,6 @@
 :root {
   --main-color: #EDAC14;
   --sec-color: #EEEEEE;
-  --red-color: #F70000;
-  --blue-color: #415E9B;
   --bg-color: #131722;
 }
 
@@ -23,7 +21,6 @@ body {
   background-color: #0e1018;
 }
 
-
 .cursor-pointer {
   cursor: pointer;
 }
@@ -40,18 +37,6 @@ body {
   background-color: var(--sec-color);
 }
 
-.red {
-  color: var(--red-color);
-}
-
-.blue {
-  color: var(--blue-color);
-}
-
-.testWidth {
-  height: 2000px;
-}
-
 .yelHover:hover {
   color: var(--main-color) !important;
 }
@@ -60,7 +45,7 @@ body {
   height: 250px;
 }
 
-.customHCard{
+.customHCard {
   height: 250px;
 }
 
@@ -68,188 +53,240 @@ body {
   background-image: url(../src/images/backGround.jpg);
 }
 
-.expand{
-  border-bottom: solid 2px var(--main-color) ;
+.expand {
+  border-bottom: solid 2px var(--main-color);
 }
 
-.linkDecoration{
+.linkDecoration {
   text-decoration: none;
 }
 
-.customShadow{
+.customShadow {
   box-shadow: 10px 10px 20px var(--main-color);
+}
+
+.StaticsItem {
+  padding: 15px 0;
 }
 
 @media screen and (max-width: 480px) {
 
-/* ==== NavBar ==== */
+  /* ==== NavBar ==== */
 
-.navimg{
-  width: 70% ;
-  margin: auto;
-}
-.navimginside{
-  margin-left: 18%;
-  margin-bottom: 15px;
-}
-.nav-link{
-  font-size: small !important;
-  padding: 0 8px !important;
-}
+  .navimg {
+    width: 70%;
+    margin: auto;
+  }
+
+  .navimginside {
+    margin-left: 15% !important;
+    margin-bottom: 15px;
+  }
+
+  .nav-link {
+    font-size: .7rem !important;
+  }
 
 
-/* ==== home ==== */
+  /* ==== home ==== */
 
-.customH {
-  height: 100px;
-}
-.Statics{
-  margin: 10px 0 !important;
-}
-.staticYellow{
-  padding: 10px 5px !important;
-  background-color: var(--bg-color);
-}
-.StaticsItem{
-  border: solid 2px var(--sec-color);
-  border-radius: 10px;
-  margin: 5px 0;
-  padding: 10px 0;
-}
-.OurPromise{
-  padding: 0 !important;
-}
-.OurPromiseText{
-  padding: 5px 15px !important;
-}
-.ContactHome{
-  display: none ;
-}
+  .customH {
+    height: 100px;
+  }
 
-/* ===== footer ===== */
-.footerDiv{
-  padding:  10px 0 !important;
-}
-.footerLogo{
-  margin-left: 10% ;
-}
+  .Statics {
+    margin: 10px 0 !important;
+  }
 
-/* ===== about ===== */
-.aboutDiv{
-  padding: 25px 5px !important;
-}
-.aboutBottom{
-  text-align: center;
-  padding: 10px 0 !important;  
-}
-.aboutLogo{
-  display: none;
-}
+  .OurPromise {
+    padding: 0 !important;
+  }
 
-/* ====== contact ======= */
-.contactDiv{
-  padding: 50px 5px !important;
-  width: 100% !important;
-}
-.customShadow{
-  box-shadow: 5px 5px 15px var(--main-color);
+  .OurPromiseText {
+    padding: 5px 15px !important;
+  }
 
-}
+  .ContactHome {
+    display: none;
+  }
 
+  .card {
+    margin: 10px 0 !important;
+  }
+
+  /* ===== footer ===== */
+  .footerDiv {
+    padding: 10px 0 !important;
+  }
+
+  .footerLogo {
+    margin-left: 0% !important;
+  }
+
+  /* ===== about ===== */
+  .aboutDiv {
+    padding: 25px 5px !important;
+  }
+
+  .aboutBottom {
+    text-align: center;
+    padding: 10px 0 !important;
+  }
+
+  .aboutLogo {
+    display: none;
+  }
+
+  /* ====== contact ======= */
+
+  .contactDiv {
+    padding: 50px 5px !important;
+    width: 100% !important;
+  }
+
+  .customShadow {
+    box-shadow: 5px 5px 15px var(--main-color);
+  }
+
+  .solLinks {
+    margin-left: 10px !important;
+  }
+
+  .solutionSection {
+    overflow: hidden;
+  }
+
+  .servLinks {
+    margin-left: 10px !important;
+  }
+
+  .servicesSection {
+    overflow: hidden;
+  }
+
+  .servicesLINKS {
+    font-size: 1rem !important;
+  }
+
+  .solutionsLINKS {
+    font-size: 1rem !important;
+  }
 
 }
 
 @media screen and (max-width: 768px) {
 
-  
-/* ==== NavBar ==== */
 
-.navimg{
-  width: 70% ;
-  margin: auto;
-}
-.navimginside{
-  margin-left: 18%;
-  margin-bottom: 15px;
-}
-.nav-link{
-  padding: 0 12px !important;
-}
+  /* ==== NavBar ==== */
 
+  .navimg {
+    width: 70%;
+    margin: auto;
+  }
 
-/* ==== home ==== */
+  .navimginside {
+    margin-left: 18%;
+    margin-bottom: 15px;
+  }
 
-.customH {
-  margin-top: 50px;
-  height: 120px;
-}
-.Statics{
-  margin: 10px 0 !important;
-}
-.staticYellow{
-  padding: 10px 5px !important;
-  background-color: var(--bg-color);
-}
-.StaticsItem{
-  border: solid 2px var(--sec-color);
-  border-radius: 10px;
-  margin: 5px 0;
-  padding: 10px 0;
-}
-.OurPromise{
-  padding: 0 !important;
-}
-.OurPromiseText{
-  padding: 5px 15px !important;
-}
-.ContactHome{
-  display: none ;
-}
-
-/* ====== services ======= */
-
-.servicesSection{
-  margin-top: 70px;
-}
-
-/* ====== services ======= */
-
-.solutionSection{
-  margin-top: 70px;
-}
-
-/* ===== footer ===== */
-.footerDiv{
-  padding:  10px 0 !important;
-}
-.footerLogo{
-  margin-left: 28% ;
-}
-
-/* ===== about ===== */
-.aboutDiv{
-  margin-top: 100px;
-  padding: 25px 5px !important;
-}
-.aboutBottom{
-  text-align: center;
-  padding: 10px 0 !important;  
-}
-.aboutLogo{
-  display: none;
-}
-
-/* ====== contact ======= */
-.contactDiv{
-  margin-top: 50px;
-  padding: 50px 5px !important;
-  width: 100% !important;
-}
-.customShadow{
-  box-shadow: 5px 5px 15px var(--main-color);
-
-}
-
-}
+  .nav-link {
+    padding: 0 12px !important;
+  }
 
 
+  /* ==== home ==== */
+
+  .customH {
+    margin-top: 50px;
+    height: 120px;
+  }
+
+  .Statics {
+    margin: 10px 0 !important;
+  }
+
+  .OurPromise {
+    padding: 0 !important;
+  }
+
+  .OurPromiseText {
+    padding: 5px 15px !important;
+  }
+
+  .ContactHome {
+    display: none;
+  }
+
+  /* ====== services ======= */
+
+  .servicesSection {
+    margin-top: 70px;
+  }
+
+  /* ====== services ======= */
+
+  .solutionSection {
+    margin-top: 70px;
+  }
+
+  /* ===== footer ===== */
+  .footerDiv {
+    padding: 10px 0 !important;
+  }
+
+  .footerLogo {
+    margin-left: 0% !important;
+  }
+
+  /* ===== about ===== */
+  .aboutDiv {
+    margin-top: 100px;
+    padding: 25px 5px !important;
+  }
+
+  .aboutBottom {
+    text-align: center;
+    padding: 10px 0 !important;
+  }
+
+  .aboutLogo {
+    display: none;
+  }
+
+  /* ====== contact ======= */
+  .contactDiv {
+    margin-top: 50px;
+    padding: 50px 5px !important;
+    width: 100% !important;
+  }
+
+  .customShadow {
+    box-shadow: 5px 5px 15px var(--main-color);
+
+  }
+
+  .solLinks {
+    margin-left: 10px !important;
+  }
+
+  .solutionSection {
+    overflow: hidden;
+  }
+
+  .servLinks {
+    margin-left: 10px !important;
+  }
+
+  .servicesSection {
+    overflow: hidden;
+  }
+
+  .servicesLINKS {
+    font-size: 1rem !important;
+  }
+
+  .solutionsLINKS {
+    font-size: 1rem !important;
+  }
+
+}

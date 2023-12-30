@@ -9,7 +9,7 @@ export default function About() {
 
   return <>
 
-    <div className="container p-5 aboutDiv">
+    <div className="container p-5 aboutDiv ">
       <div className="row">
         <div className="col-md-9">
           <ul>
@@ -29,7 +29,7 @@ export default function About() {
               </div>
               <div className="col-md-3 aboutBottom">
                 <div className="btn btn-dark ">
-                  <Link className='linkDecoration text-white' to={"/Contact"}>Contact Us</Link>
+                  <Link onClick={()=>{window.scroll(0,0)}} className='linkDecoration text-white' to={"/Contact"}>Contact Us</Link>
                 </div>
               </div>
             </div>
